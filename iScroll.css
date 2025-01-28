@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.header{
+font-size: 32px;
+color: white;
+text-align: center;
+font-family: cursive;
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin: 4px;
+    object-fit: cover;
+    border-radius: 15px;
+    border-color: white;
+    border: 10px;
+}
